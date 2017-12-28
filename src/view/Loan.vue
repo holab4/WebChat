@@ -40,7 +40,7 @@
         if (process.env.NODE_ENV === 'development') {
           this.$store.commit('setGetSocket', io.connect('localhost:9090/'))
         } else {
-          this.$store.commit('setGetSocket', io.connect('http://www.qiufengh.com:9090/'))
+          this.$store.commit('setGetSocket', io.connect('https://github.com/holab4/myWebChat.git'))
         }
       }
     },
